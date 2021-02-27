@@ -1,9 +1,9 @@
 import express from 'express';
-import {exampleRoute} from '../controllers/example-controller';
+import {findTwoBeersRoute} from '../controllers/findTwoBeers';
 import healthController from '../controllers/health';
 
 const router = express.Router();
-router.get('/example', exampleRoute);
+router.post('/findTwoBeers', findTwoBeersRoute);
 
 router.get('/health', healthController.healthCheck);
 

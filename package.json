@@ -1,7 +1,7 @@
 {
-  "name": "be-node-js",
+  "name": "bitterness-suggestion",
   "version": "1.0.0",
-  "description": "It's a node js template to save time in configuration",
+  "description": "It's a microservice that returns bitterness suggestion",
   "main": "app.js",
   "scripts": {
     "build": "npm run clean && tsc -p tsconfig.json",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/EzequielLeonardoLeotta/BE-NodeJS"
+    "url": "https://github.com/EzequielLeonardoLeotta/Bitterness-Suggestion"
   },
   "author": "Ezequiel Leonardo Leotta",
   "license": "ISC",
