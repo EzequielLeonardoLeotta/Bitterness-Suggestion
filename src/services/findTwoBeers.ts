@@ -5,7 +5,7 @@ export const findTwoBeersService = (req: Request, res: Response) => {
     const target = req.body.target as unknown as number;
     beers && target && !beers.some(v => v < 1)
         ? res.status(200).send(findTwoBeers(beers, target))
-            : res.send("Incorrect request")
+            : res.status(400).send("Bad Request")
 };
 
 const findTwoBeers = (beers: number[], target: number): number[] => {
