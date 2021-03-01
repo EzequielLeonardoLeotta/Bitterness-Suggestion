@@ -8,7 +8,7 @@ export const findTwoBeersService = (req: Request, res: Response) => {
             : res.status(400).send("Bad Request")
 };
 
-const findTwoBeers = (beers: number[], target: number): number[] => {
+export const findTwoBeers = (beers: number[], target: number): number[] => {
     let result: number[] = [];
     const arrayLength = beers.length;
     for (let i = 0; i < arrayLength && result !== []; i++) {
