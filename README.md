@@ -19,6 +19,12 @@ _First the project is required to be cloned on the pc_
 _Then enter the project path by console and execute_
 
 ```
+npm install
+```
+
+_Wait for the installation of the dependencies to finish and then run_
+
+```
 npm start
 ```
 
